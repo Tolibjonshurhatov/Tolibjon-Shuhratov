@@ -1,7 +1,24 @@
 /* ============================================
    TOLIBJON SHURHATOV — PORTFOLIO STYLES
    ============================================ */
+.footer-creator {
+  margin-top: 8px; /* "Barcha huquqlar himoyalangan" yozuvidan biroz pastga tushiradi */
+  text-align: center;
+}
 
+.footer-creator a {
+  font-size: 0.78rem; /* Kichikroq hajm */
+  color: rgba(255, 255, 255, 0.6); /* Mayin oq rang (ko'zni charchatmaslik uchun) */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+/* Sichqoncha ustiga borganda (Hover) */
+.footer-creator a:hover {
+  color: #ffffff; /* To'liq oq rangga o'tadi */
+  text-decoration: underline; /* Ostiga chiziq chiqadi */
+}
 :root {
   /* Ranglar */
   --bg: #0a0a0c;
