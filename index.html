@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tolibjon Shuhratov</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (ijtimoiy tarmoq ikonkalari uchun) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- LOGO JOYI: shu yerga o'zingizning logo rasmingizni qo'yasiz -->
+      <a href="#home" class="logo">
+        <img src="./images/ttt.png" alt="Logo" class="logo-img">
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active-link">Bosh sahifa</a>
+        <a href="#about" class="nav-link">Men haqimda</a>
+        <a href="#projects" class="nav-link">Loyihalar</a>
+        <a href="#contact" class="nav-link">Bog'lanish</a>
+      </nav>
+
+      <a href="#contact" class="nav-cta">Bog'lanish</a>
+
+      <!-- Gamburger tugma (mobil) -->
+      <button class="hamburger" id="hamburger" aria-label="Menyu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="home">
+    <div class="hero-flames" aria-hidden="true">
+      <span class="flame flame-1"></span>
+      <span class="flame flame-2"></span>
+      <span class="flame flame-3"></span>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Salom, men</p>
+      <h1 class="hero-name reveal">Tolibjon <span class="no-wrap">Shuhratov</span></h1>
+      <h2 class="hero-role reveal">
+        <span class="fire-text">Full-stack Developer</span>
+      </h2>
+      <p class="hero-desc reveal">
+        Hammaga mos qulay tez ishlovchi loyihalar hohlaysizmi men bilan bog'laning unda.G'oyangizni ekranga olib chiqamiz — kelib, ishlarimga
+        bir nazar tashlang.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#projects" class="btn btn-primary">Ishlarimni ko'rish</a>
+        <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Pastga tushish">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+
+      <div class="about-image reveal">
+        <div class="about-image-frame">
+          <!-- RASM JOYI: shaxsiy suratingizni shu yerga qo'yasiz -->
+          <img src="./images/tfdev.jpg" alt="Tolibjon Shurhatov rasmi">
+        </div>
+        <div class="about-image-glow"></div>
+      </div>
+
+      <div class="about-text">
+        <p class="section-eyebrow reveal">Men haqimda</p>
+        <h2 class="section-title reveal">Kod yozaman, Shunchaki <span class="fire-text">oddiy</span> kodlar emas</h2>
+        <p class="about-paragraph reveal">
+          Men Tolibjon Shuhratov hozirda 15 yoshdaman yosh dasturchiman dasturlashda 1-yildan beri borman.Hozirda ham oqib ham ishlayman<br>
+          Dasturlashni ozim mustaqil organganman va organib kelaman.
+        </p>
+        <p class="about-paragraph reveal">
+         Loyihalaringiz bolsa ommaga olib chiqmihchi bolsangiz aloqaga chiqing va telegram bot ham kerak bolsa backend va frontend taraflama ish<br>
+         bolsa bemalol alogaqa chiqing.
+        </p>
+
+        <div class="skills reveal">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Telegram BOT</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Express</span>
+          <span class="skill-tag">Backend</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">REST API</span>
+        </div>
+
+        <a href="#contact" class="btn btn-primary reveal">Hamkorlik qilamiz</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS ====== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="section-eyebrow reveal center">Loyihalar</p>
+      <h2 class="section-title reveal center">Mening <span class="fire-text">ishlarim</span></h2>
+      <p class="section-subtitle reveal center">
+        Qiyidagi linklar men qilgan ishlarimga olib boradi<br> tanishib chiqing va baho bering.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- LOYIHA 1 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <!-- LOYIHA RASMI: shu yerga skrinshot qo'yasiz -->
+            <img src="./images/devmaster.jpg" alt="Loyiha 1 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Veb-sayt</span>
+            <h3 class="project-title">DevMaster</h3>
+            <p class="project-desc">
+              BU online IT platformasi bo'lib siz bunda IT sohasini bemalol o'rgana olasiz.Bu loyiha tez orada chiqishi kutilmoqda
+            </p>
+            <!-- HAVOLA: shu yerga loyihangiz linkini qo'yasiz -->
+            <a href="#" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOYIHA 2 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="./images/quran.jpg" alt="Loyiha 2 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Veb-sayt</span>
+            <h3 class="project-title">Quran</h3>
+            <p class="project-desc">
+              Bu saytda ozingizga yoqqan surani audio holatida eshitishigiz mumkin.
+            </p>
+            <a href="https://tolibjonshurhatov.github.io/quran.uz/" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOYIHA 3 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="./images/f7b0fb49-6416-487c-8f97-ceabd3d982d1_removalai_preview.png" alt="Loyiha 3 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Veb-sayt</span>
+            <h3 class="project-title">Portfolio 1</h3>
+            <p class="project-desc">
+              Bu mening portfoliolarim.
+            </p>
+            <a href="https://tolibjonshurhatov.github.io/Tolibjon-Developer-Portfolio-Home./" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOYIHA 4 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="./images/f7b0fb49-6416-487c-8f97-ceabd3d982d1_removalai_preview.png" alt="Loyiha 4 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Veb-sayt</span>
+            <h3 class="project-title">Portfolio 2</h3>
+            <p class="project-desc">
+                  Bu mening portfoliolarim.
+
+            </p>
+            <a href="https://tolibjonshurhatov.github.io/Tolibjon.full-stack_dev/works.html" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOYIHA 5 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="./images/gs.jpg" alt="Loyiha 5 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Veb-sayt</span>
+            <h3 class="project-title">GadgetStore</h3>
+            <p class="project-desc">
+             Bu loyiha hali toliq yakunlanmagan.lekin bu loyiha online xarid uchun.
+            </p>
+            <a href="https://gadget-store-uz.netlify.app/" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOYIHA 6 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="./images/quran.jpg" alt="Loyiha 6 rasmi">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Telegram bot</span>
+            <h3 class="project-title">Quran</h3>
+            <p class="project-desc">
+             Bu ham quran veb-saytini telegram bot shakli bundaham audiolarni eshitishingiz mumkin.
+            </p>
+            <a href="https://t.me/shukhratovtolibjon_bot" target="_blank" rel="noopener" class="btn btn-card">
+              Loyihaga o'tish <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT / FOOTER ====== -->
+  <footer class="contact" id="contact">
+    <div class="contact-flames" aria-hidden="true">
+      <span class="flame flame-1"></span>
+      <span class="flame flame-2"></span>
+    </div>
+
+    <div class="container contact-content">
+      <p class="section-eyebrow reveal center">Bog'lanish</p>
+      <h2 class="section-title reveal center">Loyihangiz bormi? <span class="fire-text">Yozing</span></h2>
+      <p class="section-subtitle reveal center">
+        G'oyangiz, savolingiz yoki taklifingiz bo'lsa — quyidagi tarmoqlar orqali
+        bemalol murojaat qiling. Tez orada javob beraman.
+      </p>
+
+      <a href="mailto:info@example.com" class="contact-email reveal">tolibjonprogrammer@gmail.com</a>
+
+      <div class="socials reveal">
+        <a href="https://t.me//tolibjon_developer/" target="_blank" rel="noopener" class="social-link" aria-label="Telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+        <a href="https://www.instagram.com/tolibjon_shuhratov/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tolibjon-shuhratov-9ba1553ba/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCIuuOEX1LmV-xIZkvryFAFQ" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://github.com/Tolibjonshurhatov?tab=overview&from=2026-06-01&to=2026-06-12" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <p class="footer-bottom">© <span id="year"></span> Tolibjon Shuhratov. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
